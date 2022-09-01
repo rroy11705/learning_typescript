@@ -6,6 +6,9 @@ import ChildrenExample from './components/ChildrenExample'
 import './App.css';
 import Heading from './components/Heading';
 import Button from './components/Button'
+import Container from './components/Container'
+import UserLogin from './components/UserLogin';
+import ThemeButton from './components/ThemeButton';
 
 function App() {
   const username = "Bruce";
@@ -40,7 +43,7 @@ function App() {
       />
       <Person name={name} />
       <PersonList nameList={nameList} /> */}
-      <ChildrenExample>
+      {/* <ChildrenExample>
         <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i>
       </ChildrenExample>
       <ChildrenExample>
@@ -50,7 +53,12 @@ function App() {
       </ChildrenExample>
       <Button handleClick={(event, id) => {
         console.log("Button Clicked", event, id)
-      }} />
+      }} /> */}
+      {/* <Container 
+        styles={{ textAlign: 'center', fontSize: '24px', fontWeight: 600, color: '#888888' }} 
+      /> */}
+      <UserLogin />
+      <ThemeButton />
     </div>
   );
 }
