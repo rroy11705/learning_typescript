@@ -9,6 +9,7 @@ import Button from './components/Button'
 import Container from './components/Container'
 import UserLogin from './components/UserLogin';
 import ThemeButton from './components/ThemeButton';
+import RefExample2 from './components/RefExample2';
 
 function App() {
   const username = "Bruce";
@@ -57,8 +58,9 @@ function App() {
       {/* <Container 
         styles={{ textAlign: 'center', fontSize: '24px', fontWeight: 600, color: '#888888' }} 
       /> */}
-      <UserLogin />
-      <ThemeButton />
+      {/* <UserLogin />
+      <ThemeButton /> */}
+      <RefExample2 />
     </div>
   );
 }
